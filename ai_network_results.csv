@@ -1,0 +1,31 @@
+sample,packets_input,bytes_input,packets_output,bytes_output,input_errors,output_errors,drops,ml_prediction,rule_anomaly,Status,Reason
+1,100,12800,100,12800,0,0,0,1,False,NORMAL,Normal traffic
+2,50,6400,50,6400,0,0,0,-1,False,ANOMALY,ML detected unusual pattern
+3,80,10240,80,10240,0,0,0,1,False,NORMAL,Normal traffic
+4,65,8320,65,8320,0,0,0,1,False,NORMAL,Normal traffic
+5,120,15360,120,15360,0,0,0,1,False,NORMAL,Normal traffic
+6,90,11520,90,11520,0,0,0,1,False,NORMAL,Normal traffic
+7,75,9600,75,9600,0,0,0,1,False,NORMAL,Normal traffic
+8,110,14080,110,14080,0,0,0,1,False,NORMAL,Normal traffic
+9,95,12160,95,12160,0,0,0,1,False,NORMAL,Normal traffic
+10,130,16640,130,16640,0,0,0,1,False,NORMAL,Normal traffic
+11,70,8960,70,8960,0,0,0,1,False,NORMAL,Normal traffic
+12,85,10880,85,10880,0,0,0,1,False,NORMAL,Normal traffic
+13,105,13440,105,13440,0,0,0,1,False,NORMAL,Normal traffic
+14,115,14720,115,14720,0,0,0,1,False,NORMAL,Normal traffic
+15,125,16000,125,16000,0,0,0,1,False,NORMAL,Normal traffic
+16,100,12800,100,12800,0,0,0,1,False,NORMAL,Normal traffic
+17,135,17280,135,17280,0,0,0,1,False,NORMAL,Normal traffic
+18,145,18560,145,18560,0,0,0,1,False,NORMAL,Normal traffic
+19,155,19840,155,19840,0,0,0,1,False,NORMAL,Normal traffic
+20,165,21120,165,21120,0,0,0,1,False,NORMAL,Normal traffic
+21,450,57600,440,56320,8,5,3,-1,True,ANOMALY,"High packet volume, High input errors, Output errors, Packet drops, ML detected unusual pattern"
+22,520,66560,510,65280,12,8,6,-1,True,ANOMALY,"High packet volume, High input errors, Output errors, Packet drops, ML detected unusual pattern"
+23,600,76800,590,75520,15,10,8,-1,True,ANOMALY,"High packet volume, High input errors, Output errors, Packet drops, ML detected unusual pattern"
+24,700,89600,680,87040,20,15,12,1,True,ANOMALY,"High packet volume, High input errors, Output errors, Packet drops"
+25,800,102400,780,99840,25,18,15,-1,True,ANOMALY,"High packet volume, High input errors, Output errors, Packet drops, ML detected unusual pattern"
+26,75,9600,75,9600,0,0,0,1,False,NORMAL,Normal traffic
+27,90,11520,90,11520,0,0,0,1,False,NORMAL,Normal traffic
+28,680,87040,660,84480,18,12,10,-1,True,ANOMALY,"High packet volume, High input errors, Output errors, Packet drops, ML detected unusual pattern"
+29,750,96000,730,93440,22,16,14,-1,True,ANOMALY,"High packet volume, High input errors, Output errors, Packet drops, ML detected unusual pattern"
+30,850,108800,820,104960,30,20,18,-1,True,ANOMALY,"High packet volume, High input errors, Output errors, Packet drops, ML detected unusual pattern"
