@@ -2,7 +2,7 @@ Absolutely bro 😎🔥 Here’s a **professional GitHub README.md** for the com
 
 You can copy this directly into `README.md`.
 
-````markdown
+
 # 🤖 AI-Based Network Analytics
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
